@@ -49,8 +49,9 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Include Better Errors for easier debugging
-  gem "better_errors"
-  gem "binding_of_caller"
+  gem 'better_errors', '~> 2.5', '>= 2.5.1'
+  # Include rspec testing framework
+  gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
 end
 
 group :test do
@@ -66,3 +67,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Include Simple Form
 gem 'simple_form', '~> 4.1'
+
+# Include Bulma CSS Framework
+gem 'bulma-rails', '~> 0.7.5'
