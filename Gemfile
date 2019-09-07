@@ -50,6 +50,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Include Better Errors for easier debugging
   gem 'better_errors', '~> 2.5', '>= 2.5.1'
+  gem 'binding_of_caller', '~> 0.8.0'
   # Include rspec testing framework
   gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
 end
